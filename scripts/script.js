@@ -16,7 +16,7 @@ const loopGame = setInterval(() => {
         .getComputedStyle(peppo)
         .bottom.replace("px", "");
 
-    if (pipePosition <= 120 && pipePosition > 0 && peppoPosition < 80) {
+    if (pipePosition <= 120 && pipePosition > 0 && peppoPosition < 70) {
         pipe.style.animation = "none";
         pipe.style.left = `${pipePosition}px`
 
